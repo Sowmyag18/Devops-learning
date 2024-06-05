@@ -11,4 +11,5 @@ COPY . /app
 RUN javac HelloWorld.java
 
 # Run the Java program
+#Checking the branch merges
 CMD ["java", "HelloWorld"]
